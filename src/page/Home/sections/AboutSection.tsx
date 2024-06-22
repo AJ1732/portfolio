@@ -13,15 +13,12 @@ const AboutSection = () => {
       <article className="grid grid-cols-1 gap-8 md:grid-cols-[60%_35%]">
         <p className="leading-8">
           <Reveal2>
-            Frontend Engineer fueled by years of learning and building.
-            Passionate about crafting clean, user-centric interfaces that bring
-            ideas to life. Built a portfolio of diverse projects, from
-            single-page apps to interactive prototypes, showcasing strong skills
-            in frontend technologies. Eager to contribute to a collaborative
-            team and learn from experienced professionals. A quick learner with
-            a problem-solving mind and a drive to continuously improve. When not
-            coding, I'm exploring new design trends and catching up on the
-            latest tech (with a good book in hand!)
+            An inquisitive and motivated Software Engineer, willing to obtain
+            such position to utilize my skills in web development and
+            programming, while continuously improving my skills and knowledge in
+            this field. Possesses a proactive attitude and strong communication
+            skills. A great problem solver and rational thinker, with excellent
+            teamwork abilities in performing tasks.
           </Reveal2>
         </p>
 
