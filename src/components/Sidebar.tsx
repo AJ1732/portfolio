@@ -1,6 +1,6 @@
 import { twMerge } from "tailwind-merge";
 import { Link, NavLink } from "react-router-dom";
-import Reveal from "./ui/Reveal";
+import Reveal from "./anim/Reveal";
 
 const links = ["projects"];
 

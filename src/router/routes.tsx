@@ -1,5 +1,5 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
-import { TopScroll } from "../components/ui/TopScroll";
+import { TopScroll } from "../components/util/TopScroll";
 import App from "../App";
 import HomePage from "../page/Home/Page";
 import ProjectsPage from "../page/Projects/Page";

@@ -1,5 +1,5 @@
 import Container from "../../../components/Container";
-import Reveal from "../../../components/ui/Reveal";
+import Reveal from "../../../components/anim/Reveal";
 import profile from "../../../assets/profile.jpg";
 
 const HeroSection = () => {
@@ -27,7 +27,8 @@ const HeroSection = () => {
 
         <Reveal>
           <h2 data-testid="myTrack" className="text-primary-500">
-            Software Engineer <span className="text-white">&#x2022; </span> Frontend
+            Software Engineer <span className="text-white">&#x2022; </span>{" "}
+            Frontend
           </h2>
         </Reveal>
       </header>

@@ -1,4 +1,4 @@
-import Transition from "../../components/ui/Transition";
+import Transition from "../../components/anim/Transition";
 import AboutSection from "./sections/AboutSection";
 import GoalSection from "./sections/GoalSection";
 import HeroSection from "./sections/HeroSection";
