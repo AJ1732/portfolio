@@ -19,7 +19,10 @@ const Reveal2 = ({ children, duration = 0.5 }) => {
     <motion.div
       initial={"hidden"}
       whileInView={"reveal"}
-      transition={{ staggerChildren: 0.02, delayChildren: 0.5 }}
+      transition={{
+        staggerChildren: 0.02,
+        // delayChildren: 0.5
+      }}
     >
       {splitText(children).map((char, idx) => (
         <motion.span
