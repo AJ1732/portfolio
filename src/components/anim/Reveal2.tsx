@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
 
 // Spliting Text Function
 function splitText(inputString: string): string[] {
@@ -15,10 +16,21 @@ function splitText(inputString: string): string[] {
 }
 
 const Reveal2 = ({ children, duration = 0.5 }) => {
+  const ref = useRef(null);
+  const isInVIew = useInView(ref, { once: true });
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if (isInVIew) {
+      mainControls.start("reveal");
+    }
+  }, [isInVIew]);
+
   return (
     <motion.div
+      ref={ref}
       initial={"hidden"}
-      whileInView={"reveal"}
+      animate={mainControls}
       transition={{
         staggerChildren: 0.02,
         // delayChildren: 0.5
