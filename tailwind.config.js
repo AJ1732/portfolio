@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        aura: "3px -8px 120px -60px rgba(83, 91, 242, 0.75)",
+        "aura-l": "3px -8px 120px -40px rgba(83, 91, 242, 0.75)",
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         bebas: ["Bebas Neue", "sans-serif"],
