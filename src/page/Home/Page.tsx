@@ -1,6 +1,5 @@
 import Transition from "../../components/anim/Transition";
 import AboutSection from "./sections/AboutSection";
-import GoalSection from "./sections/GoalSection";
 import HeroSection from "./sections/HeroSection";
 
 const HomePage = () => {
@@ -9,7 +8,6 @@ const HomePage = () => {
       <div className="flex flex-col gap-12">
         <HeroSection />
         <AboutSection />
-        <GoalSection />
       </div>
     </main>
   );
