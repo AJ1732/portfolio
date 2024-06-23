@@ -5,11 +5,13 @@ import profile from "../../../assets/profile.jpg";
 const HeroSection = () => {
   return (
     <Container className="justify-center md:flex-row md:justify-start md:gap-16 lg:gap-24">
-      <figure>
+      <figure
+        className="shadow-aura hover:shadow-aura-l rounded-lg transition-all duration-500"
+      >
         <Reveal>
           <img
             // src={profile}
-            className="max-h-80 max-w-80 rounded-lg bg-zinc-800 object-cover"
+            className=" max-h-80 max-w-80 rounded-lg bg-zinc-800 object-cover"
             alt="Slack Profile Image of Osezele Iboi"
           />
         </Reveal>
