@@ -10,7 +10,7 @@ const AboutSection = () => {
         <Dot />
       </h2>
 
-      <article className="grid grid-cols-1 gap-8 md:grid-cols-[60%_35%]">
+      <article className="grid grid-cols-1 gap-8 md:grid-cols-[60%_36%]">
         <p className="leading-8">
           <Reveal2>
             An inquisitive and motivated Software Engineer, willing to obtain
@@ -22,9 +22,11 @@ const AboutSection = () => {
           </Reveal2>
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-2">
-          {[1, 2, 3, 4, 5, 6].map((item) => (
-            <div className="size-fit rounded bg-primary-400 p-4">{item}</div>
+        <div className="mx-auto flex w-full flex-wrap gap-1">
+          {skills.map((skill) => (
+            <div className="h-fit w-fit break-inside-avoid rounded bg-primary-400 px-4 py-3 text-center text-xs">
+              {skill}
+            </div>
           ))}
         </div>
       </article>
@@ -32,3 +34,26 @@ const AboutSection = () => {
   );
 };
 export default AboutSection;
+
+const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "jQuery",
+  "EJS",
+  "TailwindCSS",
+  "SASS/SCSS",
+  "Bootstrap",
+  "Git",
+  "GitHub",
+  "DSA",
+  "OOP",
+  "NodeJS",
+  "ExpressJS",
+  "MongoDB",
+  "SQL",
+  "PostgreSQL",
+  "UI/UX Design",
+];
