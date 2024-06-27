@@ -7,8 +7,8 @@ const HeroSection = () => {
   const tiles = new Array(242).fill(1, 0, 239);
 
   return (
-    <Container className="relative full-width">
-      <div className="grid grid-cols-20 h-dvh w-full overflow-y-clip">
+    <Container className="relative">
+      <div className="grid h-dvh w-full grid-cols-12 flex-wrap justify-center overflow-y-clip">
         {/* Grid Background */}
         {tiles.map((tile) => (
           <Tile key={tile} />
