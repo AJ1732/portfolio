@@ -7,6 +7,9 @@ export default {
         aura: "3px -8px 120px -60px rgba(83, 91, 242, 0.75)",
         "aura-l": "3px -8px 120px -40px rgba(83, 91, 242, 0.75)",
       },
+      gridTemplateColumns: {
+        20: "repeat(20, minmax(0, 1fr))",
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         bebas: ["Bebas Neue", "sans-serif"],
