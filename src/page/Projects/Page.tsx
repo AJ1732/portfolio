@@ -1,10 +1,10 @@
+import ProjectCard from "../../components/ui/ProjectCard";
+
 const ProjectsPage = () => {
   return (
     <main className="content-grid relative place-items-center py-12">
-      <div className="flex flex-col gap-12">
-        <div>Projects</div>
-        <div>Projects</div>
-        <div>Projects</div>
+      <div className="flex size-full flex-col gap-12">
+        <ProjectCard />
       </div>
     </main>
   );
