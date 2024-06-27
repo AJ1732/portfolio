@@ -24,7 +24,7 @@ const AboutSection = () => {
 
         <div className="mx-auto flex w-full flex-wrap gap-1 md:justify-end">
           {skills.map((skill) => (
-            <div className="h-fit w-fit break-inside-avoid rounded bg-primary-400 px-4 py-3 text-center text-xs">
+            <div className="h-fit min-w-16 break-inside-avoid rounded bg-primary-400 px-4 py-3 text-center text-xs">
               {skill}
             </div>
           ))}
