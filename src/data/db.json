@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "type": "MERN",
+      "stack": ["ReactJS", "TailwindCSS", "MongoDB", "NodeJS", "ExpressJS"],
+      "src1": "",
+      "src2": ""
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "type": "Type",
+      "stack": ["ReactJS", "TailwindCSS", "Framer Motion"],
+      "src1": "",
+      "src2": ""
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "type": "Type",
+      "stack": ["ReactJS", "TypeScript", "TailwindCSS"],
+      "src1": "",
+      "src2": ""
+    }
+  ]
+}
