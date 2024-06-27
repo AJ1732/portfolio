@@ -7,15 +7,15 @@ const HeroSection = () => {
   const tiles = new Array(242).fill(1, 0, 239);
 
   return (
-    <Container className="relative">
-      <div className="flex h-dvh w-full flex-wrap justify-center overflow-y-clip">
+    <Container className="relative full-width">
+      <div className="grid grid-cols-20 h-dvh w-full overflow-y-clip">
         {/* Grid Background */}
         {tiles.map((tile) => (
           <Tile key={tile} />
         ))}
       </div>
 
-      <div className="pointer-events-none absolute inset-0 z-10 flex size-full flex-col items-center justify-center gap-4 md:flex-row md:justify-start md:gap-16 lg:gap-24">
+      <div className="pointer-events-none absolute inset-0 z-10 flex size-full flex-col items-center justify-center gap-4 md:flex-row md:gap-16 lg:gap-24">
         <figure className="rounded-lg shadow-aura transition-all duration-500 hover:shadow-aura-l">
           <Reveal>
             <img
