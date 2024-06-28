@@ -7,7 +7,9 @@
       "stack": ["ReactJS", "TailwindCSS", "MongoDB", "NodeJS", "ExpressJS"],
       "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod in totam earum voluptatem ipsam?",
       "src1": "",
-      "src2": ""
+      "src2": "",
+      "github": "",
+      "live": ""
     },
     {
       "id": 2,
@@ -16,7 +18,9 @@
       "stack": ["ReactJS", "TailwindCSS", "Framer Motion"],
       "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod in totam earum voluptatem ipsam?",
       "src1": "",
-      "src2": ""
+      "src2": "",
+      "github": "",
+      "live": ""
     },
     {
       "id": 3,
@@ -25,7 +29,9 @@
       "stack": ["ReactJS", "TypeScript", "TailwindCSS"],
       "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod in totam earum voluptatem ipsam?",
       "src1": "",
-      "src2": ""
+      "src2": "",
+      "github": "",
+      "live": ""
     }
   ]
 }
