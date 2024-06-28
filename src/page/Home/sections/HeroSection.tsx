@@ -16,11 +16,11 @@ const HeroSection = () => {
       </div>
 
       <div className="pointer-events-none absolute inset-0 z-10 flex size-full flex-col items-center justify-center gap-4 md:flex-row md:gap-16 lg:gap-24">
-        <figure className="rounded-lg shadow-aura transition-all duration-500 hover:shadow-aura-l">
+        <figure className="w-80 h-96 bg-zinc-800/80 rounded-lg shadow-aura transition-all duration-500 hover:shadow-aura-l">
           <Reveal>
             <img
               // src={profile}
-              className="max-h-80 max-w-80 rounded-lg bg-zinc-800 object-cover"
+              className="w-80 h-96 rounded-lg object-cover"
               alt="Slack Profile Image of Osezele Iboi"
             />
           </Reveal>
