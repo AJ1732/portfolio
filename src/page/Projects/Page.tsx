@@ -4,7 +4,7 @@ import { projects } from "../../data/db.json";
 const ProjectsPage = () => {
   return (
     <main className="content-grid relative place-items-center py-12">
-      <div className="flex size-full flex-col gap-12 lg:gap-20">
+      <div className="flex size-full flex-col gap-28 lg:gap-20">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
