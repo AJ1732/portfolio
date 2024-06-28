@@ -2,36 +2,69 @@
   "projects": [
     {
       "id": 1,
-      "title": "Title 1",
+      "title": "Workout Tracker",
       "type": "MERN App",
       "stack": ["ReactJS", "TailwindCSS", "MongoDB", "NodeJS", "ExpressJS"],
-      "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod in totam earum voluptatem ipsam?",
+      "desc": "A responsive workout tracker application, that allows users to create and delete workouts, helping them stay organized and manage their workout activities effectively. All workouts are stored and retrieved from a non-relational database MongoDB.",
       "src1": "",
       "src2": "",
-      "github": "",
-      "live": ""
+      "github": "https://github.com/AJ1732/mern_stack",
+      "live": "https://1732-mern-workout.netlify.app/"
     },
     {
       "id": 2,
-      "title": "Title 2",
+      "title": "Framer Motion Templates",
       "type": "Website",
       "stack": ["ReactJS", "TailwindCSS", "Framer Motion"],
-      "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod in totam earum voluptatem ipsam?",
+      "desc": "This project features a collection of animations implemented using Framer Motion, inspired by various tutorials and examples found on YouTube. The web page is designed to be user-friendly and visually appealing. Implemented a user-friendly design",
       "src1": "",
       "src2": "",
-      "github": "",
-      "live": ""
+      "github": "https://github.com/AJ1732/framer-motion-template",
+      "live": "https://1732-framer-motion-template.netlify.app/"
     },
     {
       "id": 3,
-      "title": "Title 3",
+      "title": "Gallery Drop",
       "type": "Web App",
-      "stack": ["ReactJS", "TypeScript", "TailwindCSS"],
-      "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod in totam earum voluptatem ipsam?",
+      "stack": ["ReactJS", "TailwindCSS", "Firebase", "Splash API"],
+      "desc": "A functional and responsive image gallery that presents a collection of images in a visually appealing manner. The gallery includes a login feature, allowing authenticated users to access the gallery page. Once logged in, users can utilize the drag-and-drop functionality to easily select, drag, and rearrange images within the gallery.",
+      "src1": "",
+      "src2": "",
+      "github": "https://github.com/AJ1732/gallery-task",
+      "live": "https://1732-gallery-task.netlify.app/"
+    },
+    {
+      "id": 4,
+      "title": "Bloom Website",
+      "type": "Website",
+      "stack": ["ReactJS", "TailwindCSS"],
+      "desc": "Introducing Bloom, an application designed to empower your journey through motherhood. Bloom is your comprehensive support system, providing vital information and fostering connections for every stage of your pregnancy.",
       "src1": "",
       "src2": "",
       "github": "",
-      "live": ""
+      "live": "https://frontend--tech-nexus-bloom-test.netlify.app/"
+    },
+    {
+      "id": 5,
+      "title": "Task Tracker",
+      "type": "Web App",
+      "stack": ["ReactJS", "TailwindCSS"],
+      "desc": "A responsive task tracker application that enables users to create and delete tasks, helping them stay organized and manage their daily activities efficiently. The application features a user-friendly interface designed for optimal usability.",
+      "src1": "",
+      "src2": "",
+      "github": "https://github.com/AJ1732/task-tracker",
+      "live": "https://1732-task-tracker.netlify.app/"
+    },
+    {
+      "id": 6,
+      "title": "Meme Generator",
+      "type": "Web App",
+      "stack": ["ReactJS", "CSS", "meme API"],
+      "desc": "A responsive web application Looking to unleash your inner comedian and conquer the internet with humor? Look no further! The Meme Generator is here to transform your everyday moments into viral sensations.",
+      "src1": "",
+      "src2": "",
+      "github": "https://github.com/AJ1732/meme-generator",
+      "live": "https://1732-meme-generator.netlify.app/"
     }
   ]
 }
