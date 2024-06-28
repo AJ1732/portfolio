@@ -30,7 +30,7 @@ const ProjectCard = ({
         <div className="max-w-96 space-y-4 lg:mt-8">
           {/* PROJECT HEADER */}
           <header className="flex items-center justify-between">
-            <h3 className="text-2xl">Project {title}</h3>
+            <h3 className="text-2xl">{title}</h3>
             <div className="rounded bg-primary-300/40 px-4 py-2 text-sm">
               {type}
             </div>
