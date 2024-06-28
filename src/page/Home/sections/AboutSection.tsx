@@ -4,7 +4,7 @@ import Dot from "../../../components/ui/Dot";
 
 const AboutSection = () => {
   return (
-    <Container id="about" className="items-start">
+    <Container id="about" className="items-start justify-center">
       <h2 className="font-josefin text-3xl font-light">
         About Me
         <Dot />
