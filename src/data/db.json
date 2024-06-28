@@ -38,7 +38,7 @@
       "title": "Bloom Website",
       "type": "Website",
       "stack": ["ReactJS", "TailwindCSS"],
-      "desc": "Introducing Bloom, an application designed to empower your journey through motherhood. Bloom is your comprehensive support system, providing vital information and fostering connections for every stage of your pregnancy.",
+      "desc": "Specialized in frontend development for Bloom, a web app that secured 3rd place out of 100+ entries in the Technology for Good Hackathon by community-based development partners (CBDP). Bloom supports expecting mothers with personalized pregnancy tracking, access to specialist doctors, and informative blog articles as well as empowers mothers with comprehensive support and vital information throughout their pregnancy journey. Collaborated with backend developers to integrate RESTful APIs, ensuring seamless user experiences. ",
       "src1": "",
       "src2": "",
       "github": "",
@@ -46,6 +46,17 @@
     },
     {
       "id": 5,
+      "title": "Quik Invoice",
+      "type": "Web App",
+      "stack": ["ReactJS", "TypeScript", "ChakraUI", "TailwindCSS", "Redux"],
+      "desc": "A solution for handling business payments using the MERN stack (MongoDB, Express.js, React.js, Node.js). Specialized in Frontend Development and collaborated with product design to build the website and backend developers to integrate RESTful APIs. This application streamlines payment processes, offering efficiency and reliability for your business needs.",
+      "src1": "",
+      "src2": "",
+      "github": "https://github.com/Dotunoflagos/stutern_hackathon",
+      "live": "https://quickinvoice.vercel.app/"
+    },
+    {
+      "id": 6,
       "title": "Task Tracker",
       "type": "Web App",
       "stack": ["ReactJS", "TailwindCSS"],
@@ -56,7 +67,7 @@
       "live": "https://1732-task-tracker.netlify.app/"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Meme Generator",
       "type": "Web App",
       "stack": ["ReactJS", "CSS", "meme API"],
