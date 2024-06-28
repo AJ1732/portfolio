@@ -7,6 +7,8 @@ interface Props {
   stack: string[];
   src1: string;
   src2: string;
+  github: string;
+  live: string;
   reverse?: boolean;
 }
 const ProjectCard = ({
@@ -16,6 +18,8 @@ const ProjectCard = ({
   stack,
   src1,
   src2,
+  github,
+  live,
   reverse,
 }: Props) => {
   return (
@@ -55,12 +59,20 @@ const ProjectCard = ({
           <div
             className={`flex items-center ${reverse ? "justify-end" : "justify-start"} gap-4 pl-1 *:cursor-pointer *:py-1.5 *:text-sm`}
           >
-            <div className="transition-all duration-500 hover:text-primary-400 hover:underline">
+            <a
+              href={github}
+              target="_blank"
+              className="transition-all duration-500 hover:text-primary-400 hover:underline"
+            >
               GitHub Repo
-            </div>
-            <div className="transition-all duration-500 hover:text-primary-400 hover:underline">
+            </a>
+            <a
+              href={live}
+              target="_blank"
+              className="transition-all duration-500 hover:text-primary-400 hover:underline"
+            >
               Live Link
-            </div>
+            </a>
           </div>
         </div>
 
