@@ -5,7 +5,6 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "noImplicitAny": false, // Added to use hashlink
 
     /* Bundler mode */
     "moduleResolution": "bundler",
