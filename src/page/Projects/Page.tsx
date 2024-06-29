@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProjectCard from "../../components/ui/ProjectCard";
 import { projects } from "../../data/db.json";
 
@@ -13,6 +14,10 @@ const ProjectsPage = () => {
           />
         ))}
       </div>
+
+      <Link to={`/`} className="group mr-auto mt-20 text-primary-400 flex-center gap-2">
+        ← <span className="group-hover:underline">Back to Home</span> 
+      </Link>
     </main>
   );
 };
