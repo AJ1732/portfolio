@@ -1,6 +1,6 @@
 import Container from "../../../components/Container";
 import Reveal from "../../../components/anim/Reveal";
-import profile from "../../../assets/profile.jpg";
+import profile from "../../../assets/profile2.jpg";
 import Tile from "../../../components/ui/Tile";
 
 const HeroSection = () => {
