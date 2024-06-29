@@ -38,7 +38,7 @@
       "title": "Bloom Website",
       "type": "Website",
       "stack": ["ReactJS", "TailwindCSS"],
-      "desc": "Specialized in frontend development for Bloom, a web app that secured 3rd place out of 100+ entries in the Technology for Good Hackathon by community-based development partners (CBDP). Bloom supports expecting mothers with personalized pregnancy tracking, access to specialist doctors, and informative blog articles as well as empowers mothers with comprehensive support and vital information throughout their pregnancy journey. Collaborated with backend developers to integrate RESTful APIs, ensuring seamless user experiences. ",
+      "desc": "Specialized in frontend development for Bloom, a web app that secured 3rd place out of 100+ entries in the Technology for Good Hackathon by community-based development partners (CBDP). \n Bloom supports expecting mothers with personalized pregnancy tracking, access to specialist doctors, and informative blog articles. Collaborated with backend developers to integrate RESTful APIs, ensuring seamless user experiences. ",
       "src1": "https://aj1732.github.io/portfolio/src/assets/projects/bloom1.png",
       "src2": "https://aj1732.github.io/portfolio/src/assets/projects/bloom2.png",
       "github": "",

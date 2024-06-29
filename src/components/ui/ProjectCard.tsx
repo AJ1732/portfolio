@@ -27,7 +27,7 @@ const ProjectCard = ({
       <article
         className={`flex min-h-[calc(100dvh-8rem)] w-full flex-col items-center justify-between gap-8 ${reverse ? "md:flex-row-reverse" : "md:flex-row"}`}
       >
-        <div className="max-w-96 space-y-4 lg:mt-8">
+        <div className="max-w-[30rem] space-y-4 lg:mt-8">
           {/* PROJECT HEADER */}
           <header className="flex items-center justify-between gap-4">
             <h3 className="text-2xl">{title}</h3>
@@ -37,7 +37,7 @@ const ProjectCard = ({
           </header>
 
           {/* PROJECT DESCRIPTION */}
-          <p className={`text-sm text-zinc-400 ${reverse && "text-end"}`}>
+          <p className={`text-lg text-zinc-400 ${reverse && "text-end"}`}>
             {desc}
           </p>
 
