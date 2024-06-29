@@ -15,7 +15,13 @@ function splitText(inputString: string): string[] {
   return characters;
 }
 
-const Reveal2 = ({ children, duration = 0.5, className }) => {
+interface Props {
+  children: string;
+  duration: number;
+  className: string;
+}
+
+const Reveal2 = ({ children, duration = 0.5, className }: Props) => {
   const ref = useRef(null);
   const isInVIew = useInView(ref, { once: true });
   const mainControls = useAnimation();
