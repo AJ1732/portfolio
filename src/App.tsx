@@ -7,14 +7,14 @@ function App() {
   return (
     <div className="min-h-dvh font-poppins">
       {/* CV DOWNLOAD */}
-      <ShinyButton className="fixed right-8 top-11 z-50">
+      {/* <ShinyButton className="fixed right-8 top-11 z-50">
         <a href={cv} download role="button">
           Resume
         </a>
-      </ShinyButton>
+      </ShinyButton> */}
 
       {/* SIDE NAVIGATION */}
-      <div className="fixed h-dvh max-w-[4.5rem] md:max-w-20">
+      <div className="sidenav fixed h-dvh max-w-[4.5rem] overflow-hidden overflow-y-scroll bg-black md:max-w-20">
         <Sidebar />
       </div>
 

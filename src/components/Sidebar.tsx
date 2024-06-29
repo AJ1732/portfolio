@@ -1,6 +1,8 @@
 import { twMerge } from "tailwind-merge";
 import { Link, NavLink } from "react-router-dom";
 import Reveal from "./anim/Reveal";
+import ShinyButton from "./anim/ShinyButton";
+import cv from "../assets/OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER.pdf";
 
 const links = ["projects"];
 
@@ -29,7 +31,7 @@ const Sidebar = () => {
       </Link>
 
       <nav className="mt-48 flex w-96 rotate-90 items-center justify-between">
-        <ul className="grid grid-cols-[repeat(3,_6rem)] text-center text-xl *:flex *:h-[4.5rem] *:items-center *:justify-center *:border-t *:font-bebas *:tracking-widest *:transition-all *:duration-500 *:sm:h-[5rem]">
+        <ul className="grid grid-cols-[repeat(2,_6rem)] text-center text-xl *:flex *:h-[4.5rem] *:items-center *:justify-center *:border-t *:font-bebas *:tracking-widest *:transition-all *:duration-500 *:sm:h-[5rem]">
           {links.map((item) => (
             <NavLink
               key={item}
@@ -50,7 +52,15 @@ const Sidebar = () => {
           ))}
         </ul>
 
-        <ul className="flex-center h-full">
+        <ul className="mx-4 text-center text-xl *:flex *:h-[4.5rem] *:items-center *:justify-center *:font-bebas *:tracking-widest *:transition-all *:duration-500 *:sm:h-[5rem]">
+          <li>
+            <a href={cv} download role="button">
+              <ShinyButton className="text-neutral-900">Resume</ShinyButton>
+            </a>
+          </li>
+        </ul>
+
+        <ul className="flex-center ml-auto h-full">
           {socials.map(({ id, iconClass, link }) => (
             <li
               key={id}
