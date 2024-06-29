@@ -44,3 +44,22 @@
   mask-composite: exclude;
   -webkit-mask-composite: xor;
 }
+
+.shinyAnimation {
+  animation: shiny 2s ease-in-out 1s infinite;
+}
+
+@property --x {
+  syntax: "<percentage>";
+  initial-value: 100%;
+  inherits: false;
+}
+
+@keyframes shiny {
+  0% {
+    --x: 100%;
+  }
+  100% {
+    --x: -100%;
+  }
+}
