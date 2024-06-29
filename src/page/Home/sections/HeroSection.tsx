@@ -8,18 +8,19 @@ const HeroSection = () => {
 
   return (
     <Container className="relative">
+      {/* GRID BACKGROUND */}
       <div className="grid h-dvh w-full grid-cols-12 flex-wrap justify-center overflow-y-clip">
-        {/* Grid Background */}
         {tiles.map((tile) => (
           <Tile key={tile} />
         ))}
       </div>
 
+      {/* HERO CONTENT */}
       <div className="pointer-events-none absolute inset-0 z-10 flex size-full flex-col items-center justify-center gap-4 md:flex-row md:gap-16 lg:gap-24">
         <figure className="w-80 h-96 bg-zinc-800/80 rounded-lg shadow-aura transition-all duration-500 hover:shadow-aura-l">
           <Reveal>
             <img
-              // src={profile}
+              src={profile}
               className="w-80 h-96 rounded-lg object-cover"
               alt="Slack Profile Image of Osezele Iboi"
             />
