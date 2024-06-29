@@ -17,7 +17,7 @@ function splitText(inputString: string): string[] {
 
 interface Props {
   children: string;
-  duration: number;
+  duration?: number;
   className: string;
 }
 
