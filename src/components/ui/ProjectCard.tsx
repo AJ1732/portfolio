@@ -62,16 +62,18 @@ const ProjectCard = ({
             <a
               href={github}
               target="_blank"
-              className="transition-all duration-500 hover:text-primary-400 hover:underline"
+              className="flex-center group gap-1 transition-all duration-500 hover:text-primary-400"
             >
-              GitHub Repo
+              <span className="group-hover:underline">GitHub Repo</span>
+              <span className="block size-fit rotate-12 pb-1">↗</span>
             </a>
             <a
               href={live}
               target="_blank"
-              className="transition-all duration-500 hover:text-primary-400 hover:underline"
+              className="flex-center group gap-1 transition-all duration-500 hover:text-primary-400"
             >
-              Live Link
+              <span className="group-hover:underline">Live Link</span>
+              <span className="block size-fit rotate-12 pb-1">↗</span>
             </a>
           </div>
         </div>
@@ -85,7 +87,7 @@ const ProjectCard = ({
           />
           <img
             src={src2}
-            className={`-mt-40 ${reverse ? "mr-auto" : "ml-auto"} size-60 rounded bg-primary-300 object-center object-cover shadow-2xl`}
+            className={`-mt-40 ${reverse ? "mr-auto" : "ml-auto"} size-60 rounded bg-primary-300 object-cover object-center shadow-2xl`}
             alt="Project Image 2"
           />
         </figure>
