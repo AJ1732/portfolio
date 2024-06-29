@@ -80,12 +80,12 @@ const ProjectCard = ({
         <figure className="min-w-80">
           <img
             src={src1}
-            className={`size-60 rounded ${reverse ? "ml-auto" : "mr-auto"} object-cover bg-primary-300`}
+            className={`size-60 rounded ${reverse ? "ml-auto" : "mr-auto"} bg-primary-300 object-cover object-right-top`}
             alt="Project Image 1"
           />
           <img
             src={src2}
-            className={`-mt-40 ${reverse ? "mr-auto" : "ml-auto"} size-60 rounded object-cover bg-primary-300 shadow-2xl`}
+            className={`-mt-40 ${reverse ? "mr-auto" : "ml-auto"} size-60 rounded bg-primary-300 object-left object-cover shadow-2xl`}
             alt="Project Image 2"
           />
         </figure>
