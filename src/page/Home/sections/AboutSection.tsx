@@ -11,20 +11,23 @@ const AboutSection = () => {
       </h2>
 
       <article className="grid grid-cols-1 gap-8 md:grid-cols-[60%_36%]">
-        <p className="leading-8">
-          <Reveal2>
+        <Reveal2>
+          <p className="leading-8">
             An inquisitive and motivated Software Engineer, willing to obtain
             such position to utilize my skills in web development and
             programming, while continuously improving my skills and knowledge in
             this field. Possesses a proactive attitude and strong communication
             skills. A great problem solver and rational thinker, with excellent
             teamwork abilities in performing tasks.
-          </Reveal2>
-        </p>
+          </p>
+        </Reveal2>
 
         <div className="mx-auto flex w-full flex-wrap gap-1 md:justify-end">
           {skills.map((skill) => (
-            <div key={skill} className="h-fit min-w-16 break-inside-avoid rounded bg-primary-400 px-4 py-3 text-center text-xs">
+            <div
+              key={skill}
+              className="h-fit min-w-16 break-inside-avoid rounded bg-primary-400 px-4 py-3 text-center text-xs"
+            >
               {skill}
             </div>
           ))}
