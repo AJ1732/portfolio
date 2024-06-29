@@ -61,7 +61,7 @@
       "type": "Web App",
       "stack": ["ReactJS", "TailwindCSS"],
       "desc": "A responsive task tracker application that enables users to create and delete tasks, helping them stay organized and manage their daily activities efficiently. The application features a user-friendly interface designed for optimal usability.",
-      "src1": "https://aj1732.github.io/portfolio/src/assets/projects/taskTracker.png",
+      "src1": "https://aj1732.github.io/portfolio/src/assets/projects/taskTracker2.png",
       "src2": "https://aj1732.github.io/portfolio/src/assets/projects/taskTracker.png",
       "github": "https://github.com/AJ1732/task-tracker",
       "live": "https://1732-task-tracker.netlify.app/"
