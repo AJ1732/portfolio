@@ -11,15 +11,13 @@ const AboutSection = () => {
       </h2>
 
       <article className="grid grid-cols-1 gap-8 md:grid-cols-[60%_36%]">
-        <Reveal2>
-          <p className="leading-8">
-            An inquisitive and motivated Software Engineer, willing to obtain
-            such position to utilize my skills in web development and
-            programming, while continuously improving my skills and knowledge in
-            this field. Possesses a proactive attitude and strong communication
-            skills. A great problem solver and rational thinker, with excellent
-            teamwork abilities in performing tasks.
-          </p>
+        <Reveal2 className={`leading-8`}>
+          An inquisitive and motivated Software Engineer, willing to obtain such
+          position to utilize my skills in web development and programming,
+          while continuously improving my skills and knowledge in this field.
+          Possesses a proactive attitude and strong communication skills. A
+          great problem solver and rational thinker, with excellent teamwork
+          abilities in performing tasks.
         </Reveal2>
 
         <div className="mx-auto flex w-full flex-wrap gap-1 md:justify-end">
