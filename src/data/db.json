@@ -6,8 +6,8 @@
       "type": "MERN App",
       "stack": ["ReactJS", "TailwindCSS", "MongoDB", "NodeJS", "ExpressJS"],
       "desc": "A responsive workout tracker application, that allows users to create and delete workouts, helping them stay organized and manage their workout activities effectively. All workouts are stored and retrieved from a non-relational database MongoDB.",
-      "src1": "https://aj1732.github.io/portfolio/src/assets/projects/workoutTracker.png",
-      "src2": "https://aj1732.github.io/portfolio/src/assets/projects/workoutTracker.png",
+      "src1": "https://aj1732.github.io/portfolio/src/assets/projects/workoutTracker1.png",
+      "src2": "https://aj1732.github.io/portfolio/src/assets/projects/workoutTracker2.png",
       "github": "https://github.com/AJ1732/mern_stack",
       "live": "https://1732-mern-workout.netlify.app/"
     },
