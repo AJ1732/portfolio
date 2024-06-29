@@ -28,7 +28,7 @@
       "type": "Web App",
       "stack": ["ReactJS", "TailwindCSS", "Firebase", "Splash API"],
       "desc": "A functional and responsive image gallery that presents a collection of images in a visually appealing manner. The gallery includes a login feature, allowing authenticated users to access the gallery page. Once logged in, users can utilize the drag-and-drop functionality to easily select, drag, and rearrange images within the gallery.",
-      "src1": "https://aj1732.github.io/portfolio/src/assets/projects/galleryDrop.png",
+      "src1": "https://aj1732.github.io/portfolio/src/assets/projects/galleryDrop2.png",
       "src2": "https://aj1732.github.io/portfolio/src/assets/projects/galleryDrop.png",
       "github": "https://github.com/AJ1732/gallery-task",
       "live": "https://1732-gallery-task.netlify.app/"
