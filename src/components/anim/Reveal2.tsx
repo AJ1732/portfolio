@@ -15,7 +15,7 @@ function splitText(inputString: string): string[] {
   return characters;
 }
 
-const Reveal2 = ({ children, duration = 0.5 }) => {
+const Reveal2 = ({ children, duration = 0.5, className }) => {
   const ref = useRef(null);
   const isInVIew = useInView(ref, { once: true });
   const mainControls = useAnimation();
@@ -27,7 +27,7 @@ const Reveal2 = ({ children, duration = 0.5 }) => {
   }, [isInVIew]);
 
   return (
-    <motion.div
+    <motion.p
       ref={ref}
       initial={"hidden"}
       animate={mainControls}
@@ -44,11 +44,12 @@ const Reveal2 = ({ children, duration = 0.5 }) => {
             reveal: { opacity: 1 },
           }}
           transition={{ duration: duration, ease: "easeInOut" }}
+          className={className}
         >
           {char}
         </motion.span>
       ))}
-    </motion.div>
+    </motion.p>
   );
 };
 export default Reveal2;
