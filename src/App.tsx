@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import cv from "./assets/OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER.pdf";
-import ShinyButton from "./components/anim/ShinyButton";
+// import cv from "./assets/OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER.pdf";
+// import ShinyButton from "./components/anim/ShinyButton";
 
 function App() {
   return (
