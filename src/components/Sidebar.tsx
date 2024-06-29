@@ -31,7 +31,7 @@ const Sidebar = () => {
       </Link>
 
       <nav className="mt-48 flex w-96 rotate-90 items-center justify-between">
-        <ul className="grid grid-cols-[repeat(2,_6rem)] text-center text-xl *:flex *:h-[4.5rem] *:items-center *:justify-center *:border-t *:font-bebas *:tracking-widest *:transition-all *:duration-500 *:sm:h-[5rem]">
+        <ul className="grid grid-cols-[repeat(2,_6rem)] text-center text-xl *:flex *:h-[4.5rem] *:items-center *:justify-center *:border-t *:font-bebas *:tracking-widest *:transition-all *:duration-500 *:md:h-[5rem]">
           {links.map((item) => (
             <NavLink
               key={item}
