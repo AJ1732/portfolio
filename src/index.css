@@ -40,8 +40,8 @@
 .content-grid {
   /* spacing variables */
   --padding-inline: 1.5rem;
-  --content-max-width: 860px;
-  --breakout-max-width: 1024px;
+  --content-max-width: 1200px;
+  --breakout-max-width: 1440px;
   --layout-max-width: 1280px;
 
   --breakout-size: calc(
