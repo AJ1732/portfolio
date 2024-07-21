@@ -18,7 +18,7 @@ function splitText(inputString: string): string[] {
 interface Props {
   children: string;
   duration?: number;
-  className: string;
+  className?: string;
 }
 
 const Reveal2 = ({ children, duration = 0.5, className }: Props) => {

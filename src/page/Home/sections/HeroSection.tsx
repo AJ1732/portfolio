@@ -9,9 +9,9 @@ const HeroSection = () => {
   return (
     <Container className="relative">
       {/* GRID BACKGROUND */}
-      <div className="grid h-dvh w-full grid-cols-12 flex-wrap justify-center overflow-y-clip">
-        {tiles.map((tile) => (
-          <Tile key={tile} />
+      <div className=" h-dvh w-full flex flex-wrap justify-center overflow-y-clip">
+        {tiles.map((tile, index) => (
+          <Tile key={`tile-${index}-${tile}`} />
         ))}
       </div>
 

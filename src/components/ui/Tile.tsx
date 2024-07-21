@@ -11,7 +11,7 @@ const Tile = () => {
         duration: 5,
         ease: "easeOut",
       }}
-      className="inline-block w-full aspect-square border border-neutral-900 bg-neutral-950 transition-colors duration-100 hover:bg-primary-500"
+      className="inline-block w-full max-w-14 aspect-square border border-neutral-900 bg-neutral-950 transition-colors duration-100 hover:bg-primary-500"
     />
   );
 };

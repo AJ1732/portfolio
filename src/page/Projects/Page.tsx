@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import ProjectCard from "../../components/ui/ProjectCard";
 import { projects } from "../../data/db.json";
+import ProjectCard from "../../components/ui/ProjectCard";
 
 const ProjectsPage = () => {
   return (
