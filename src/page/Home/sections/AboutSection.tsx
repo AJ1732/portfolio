@@ -33,7 +33,7 @@ const AboutSection = () => {
         </div>
       </article>
 
-      <article className="flex w-full flex-col items-end text-right leading-8">
+      <article className="flex w-full mt-12 flex-col items-center text-center leading-8">
         <Reveal>
           <ul className="list-inside list-disc space-y-4 marker:text-primary-500 lg:max-w-2xl">
             {speech.map((spee, index) => (
