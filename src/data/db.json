@@ -2,6 +2,17 @@
   "projects": [
     {
       "id": 1,
+      "title": "Post Jsonplaceholder",
+      "type": "Website",
+      "stack": ["NextJS", "TypeScript", "Shadcn UI", "TailwindCSS"],
+      "desc": "A responsive website for post from Jsonplaceholder API, a free and reliable fake API. Combined my design skills with Next.js, TypeScript, and ShadCN UI! Designed a sleek website, integrated JSONPlaceholder API for posts  and implemented pagination, loading UI, and error pages.",
+      "src1": "https://aj1732.github.io/portfolio/src/assets/projects/postJsonplaceholder1.png",
+      "src2": "https://aj1732.github.io/portfolio/src/assets/projects/postJsonplaceholder2.png",
+      "github": "https://github.com/AJ1732/jsonplaceholder_posts",
+      "live": "https://1732-jsonplaceholder-posts.vercel.app/"
+    },
+    {
+      "id": 2,
       "title": "Workout Tracker",
       "type": "MERN App",
       "stack": ["ReactJS", "TailwindCSS", "MongoDB", "NodeJS", "ExpressJS"],
@@ -12,7 +23,7 @@
       "live": "https://1732-mern-workout.netlify.app/"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Framer Motion Templates",
       "type": "Website",
       "stack": ["ReactJS", "TailwindCSS", "Framer Motion"],
@@ -23,7 +34,7 @@
       "live": "https://1732-framer-motion-template.netlify.app/"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Gallery Drop",
       "type": "Web App",
       "stack": ["ReactJS", "TailwindCSS", "Firebase", "Splash API"],
@@ -34,7 +45,7 @@
       "live": "https://1732-gallery-task.netlify.app/"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Bloom Website",
       "type": "Website",
       "stack": ["ReactJS", "TailwindCSS"],
@@ -45,7 +56,7 @@
       "live": "https://frontend--tech-nexus-bloom-test.netlify.app/"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Quik Invoice",
       "type": "Web App",
       "stack": ["ReactJS", "TypeScript", "ChakraUI", "TailwindCSS", "Redux"],
@@ -56,7 +67,7 @@
       "live": "https://quickinvoice.vercel.app/"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Task Tracker",
       "type": "Web App",
       "stack": ["ReactJS", "TailwindCSS"],
@@ -67,7 +78,7 @@
       "live": "https://1732-task-tracker.netlify.app/"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Meme Generator",
       "type": "Web App",
       "stack": ["ReactJS", "CSS", "meme API"],
