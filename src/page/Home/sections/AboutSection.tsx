@@ -2,6 +2,8 @@ import Reveal from "../../../components/anim/Reveal";
 import Reveal2 from "../../../components/anim/Reveal2";
 import Container from "../../../components/Container";
 import Dot from "../../../components/ui/Dot";
+import FlipDiv from "../../../components/ui/FlipDiv";
+import { skills } from "../../../data/skills";
 
 const AboutSection = () => {
   return (
@@ -11,29 +13,26 @@ const AboutSection = () => {
         <Dot />
       </h2>
 
-      <article className="grid grid-cols-1 gap-8 md:grid-cols-[60%_36%]">
-        <Reveal2 className={`leading-8`}>
-          An inquisitive and motivated Software Engineer, willing to utilize my
-          skills in web development and programming, while continuously
-          improving my skills and knowledge in this field. Possesses a proactive
-          attitude and strong communication skills. A great problem solver and
-          rational thinker, with excellent teamwork abilities in performing
-          tasks.
-        </Reveal2>
+      <article className="grid grid-cols-1 gap-8">
+        <div className="max-w-5xl">
+          <Reveal2 className={`md:text-xl`}>
+            An inquisitive and motivated Software Engineer, willing to utilize
+            my skills in web development and programming, while continuously
+            improving my skills and knowledge in this field. Possesses a
+            proactive attitude and strong communication skills. A great problem
+            solver and rational thinker, with excellent teamwork abilities in
+            performing tasks.
+          </Reveal2>
+        </div>
 
         <div className="mx-auto flex w-full flex-wrap gap-1 md:justify-end">
-          {skills.map((skill) => (
-            <div
-              key={`about-${skill}`}
-              className="h-fit min-w-16 cursor-default break-inside-avoid rounded bg-primary-400/10 px-4 py-3 text-center text-xs text-primary-400 hover:bg-primary-400/100 hover:text-white"
-            >
-              {skill}
-            </div>
+          {skills.map(({ id, skill, icon }) => (
+            <FlipDiv key={id} text={skill} under={icon} />
           ))}
         </div>
       </article>
 
-      <article className="flex w-full mt-12 flex-col items-center text-center leading-8">
+      <article className="mt-12 flex w-full flex-col items-center text-center leading-8">
         <Reveal>
           <ul className="list-inside list-disc space-y-4 marker:text-primary-500 lg:max-w-2xl">
             {speech.map((spee, index) => (
@@ -48,33 +47,6 @@ const AboutSection = () => {
   );
 };
 export default AboutSection;
-
-const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "NextJS",
-  "jQuery",
-  "EJS",
-  "Shadcn UI",
-  "TailwindCSS",
-  "SASS/SCSS",
-  "Bootstrap",
-  "Git",
-  "GitHub",
-  "DSA",
-  "Vitest",
-  "OOP",
-  "NodeJS",
-  "ExpressJS",
-  "MongoDB",
-  "SQL",
-  "PostgreSQL",
-  "UI/UX Design",
-  "Figma",
-];
 
 const speech = [
   "Well... Apart from English, I'm Proficient in languages such as HTML, CSS and JavaScript",

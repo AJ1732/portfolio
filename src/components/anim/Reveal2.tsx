@@ -41,6 +41,7 @@ const Reveal2 = ({ children, duration = 0.5, className }: Props) => {
         staggerChildren: 0.02,
         // delayChildren: 0.5
       }}
+      className="leading-10"
     >
       {splitText(children).map((char, idx) => (
         <motion.span
