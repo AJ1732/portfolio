@@ -54,7 +54,7 @@ const Sidebar = () => {
 
         <ul className="mx-4 text-center text-xl *:flex *:h-[4.5rem] *:items-center *:justify-center *:font-bebas *:tracking-widest *:transition-all *:duration-500 *:sm:h-[5rem]">
           <li>
-            <a href={cv} download role="button">
+            <a href={cv} download="OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER.pdf" role="button">
               <ShinyButton className="text-neutral-900">Resume</ShinyButton>
             </a>
           </li>
