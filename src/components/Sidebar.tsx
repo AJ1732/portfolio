@@ -17,6 +17,11 @@ const socials = [
     iconClass: "fa-brands fa-linkedin",
     link: "https://www.linkedin.com/in/osezeleiboi/",
   },
+  {
+    id: 3,
+    iconClass: "fa-brands fa-upwork",
+    link: "https://www.upwork.com/freelancers/~01a8f190b376ee33f0?mp_source=share",
+  },
 ];
 
 const Sidebar = () => {
