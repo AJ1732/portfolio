@@ -2,7 +2,7 @@ import { twMerge } from "tailwind-merge";
 import { Link, NavLink } from "react-router-dom";
 import Reveal from "./anim/Reveal";
 import ShinyButton from "./anim/ShinyButton";
-import cv from "../assets/OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER.pdf";
+import cv from "../assets/OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER_RESUME.pdf";
 
 const links = ["projects"];
 
