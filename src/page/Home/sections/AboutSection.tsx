@@ -26,8 +26,8 @@ const AboutSection = () => {
         </div>
 
         <div className="mx-auto flex w-full flex-wrap gap-1 md:justify-end">
-          {skills.map(({ id, skill, icon }) => (
-            <FlipDiv key={id} text={skill} under={icon} />
+          {skills.map(({ skill, icon }, i) => (
+            <FlipDiv key={`skill-${i}`} text={skill} under={icon} />
           ))}
         </div>
       </article>
