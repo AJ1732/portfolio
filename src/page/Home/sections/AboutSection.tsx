@@ -7,6 +7,8 @@ import DoubleMarquee from "../../../components/ui/Marquee";
 import { skills } from "../../../data/skills";
 
 const AboutSection = () => {
+  const oneThirdLength = Math.floor(skills.length / 3)
+
   return (
     <Container id="about" className="items-start justify-center">
       <h2 className="font-josefin text-3xl font-light">
@@ -34,23 +36,33 @@ const AboutSection = () => {
 
         <div>
           <DoubleMarquee
-            firstTop={skills
-              .slice(0, Math.ceil(skills.length / 2))
+            topFirst={skills
+              .slice(0, oneThirdLength)
               .map(({ skill, icon }, i) => (
                 <FlipDiv key={`skill-ft-${i}`} text={skill} under={icon} />
               ))}
-            secondTop={skills
-              .slice(0, Math.ceil(skills.length / 2))
+            topSecond={skills
+              .slice(0, oneThirdLength)
               .map(({ skill, icon }, i) => (
                 <FlipDiv key={`skill-st-${i}`} text={skill} under={icon} />
               ))}
-            firstBottom={skills
-              .slice(Math.ceil(skills.length / 2))
+            middleFirst={skills
+              .slice(oneThirdLength, oneThirdLength * 2)
               .map(({ skill, icon }, i) => (
                 <FlipDiv key={`skill-bt-${i}`} text={skill} under={icon} />
               ))}
-            secondBottom={skills
-              .slice(Math.ceil(skills.length / 2))
+            middleSecond={skills
+              .slice(oneThirdLength, oneThirdLength * 2)
+              .map(({ skill, icon }, i) => (
+                <FlipDiv key={`skill-sb-${i}`} text={skill} under={icon} />
+              ))}
+            bottomFirst={skills
+              .slice(oneThirdLength * 2)
+              .map(({ skill, icon }, i) => (
+                <FlipDiv key={`skill-bt-${i}`} text={skill} under={icon} />
+              ))}
+            bottomSecond={skills
+              .slice(oneThirdLength * 2)
               .map(({ skill, icon }, i) => (
                 <FlipDiv key={`skill-sb-${i}`} text={skill} under={icon} />
               ))}
