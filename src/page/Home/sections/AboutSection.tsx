@@ -3,6 +3,7 @@ import Reveal2 from "../../../components/anim/Reveal2";
 import Container from "../../../components/Container";
 import Dot from "../../../components/ui/Dot";
 import FlipDiv from "../../../components/ui/FlipDiv";
+import DoubleMarquee from "../../../components/ui/Marquee";
 import { skills } from "../../../data/skills";
 
 const AboutSection = () => {
@@ -25,10 +26,35 @@ const AboutSection = () => {
           </Reveal2>
         </div>
 
-        <div className="mx-auto flex w-full flex-wrap gap-1 md:justify-end">
+        {/* <div className="mx-auto flex w-full flex-wrap gap-1 md:justify-end">
           {skills.map(({ skill, icon }, i) => (
             <FlipDiv key={`skill-${i}`} text={skill} under={icon} />
           ))}
+        </div> */}
+
+        <div>
+          <DoubleMarquee
+            firstTop={skills
+              .slice(0, Math.ceil(skills.length / 2))
+              .map(({ skill, icon }, i) => (
+                <FlipDiv key={`skill-ft-${i}`} text={skill} under={icon} />
+              ))}
+            secondTop={skills
+              .slice(0, Math.ceil(skills.length / 2))
+              .map(({ skill, icon }, i) => (
+                <FlipDiv key={`skill-st-${i}`} text={skill} under={icon} />
+              ))}
+            firstBottom={skills
+              .slice(Math.ceil(skills.length / 2))
+              .map(({ skill, icon }, i) => (
+                <FlipDiv key={`skill-bt-${i}`} text={skill} under={icon} />
+              ))}
+            secondBottom={skills
+              .slice(Math.ceil(skills.length / 2))
+              .map(({ skill, icon }, i) => (
+                <FlipDiv key={`skill-sb-${i}`} text={skill} under={icon} />
+              ))}
+          />
         </div>
       </article>
 
@@ -50,7 +76,7 @@ export default AboutSection;
 
 const speech = [
   "Well... Apart from English, I'm Proficient in languages such as HTML, CSS and JavaScript",
-  "Proficient with Frontend frameworks like Bootstrap, SCSS/SASS, TailwindCSS, EJS, jQuery and React",
+  "Proficient with Frontend frameworks and libraries like Bootstrap, SCSS/SASS, TailwindCSS, EJS, jQuery, shadcnUI, ChakraUI, Redux/RTK, TansStack Query, React and NextJS",
   "Familar with Backend technologies like NodeJS, ExpressJS, MongoDB, SQL, PostgreSQL, to make RESTful APIs",
   "Understand web design principles and user experience (UX) design",
   "Undergoing training in Data Structures like Stacks, Queues, List, Linked list and Hashmaps and Algorithms like Linear Search and Binary search in JavaScript to enhance problem-solving skills. As well as the concept of Big O notation and time complexity",
