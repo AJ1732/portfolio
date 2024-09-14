@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <Container className="relative">
       {/* GRID BACKGROUND */}
-      <div className=" h-dvh w-full flex flex-wrap justify-center overflow-y-clip">
+      <div className="grid h-dvh w-full grid-cols-6 place-content-start place-items-center justify-center gap-0 overflow-hidden md:grid-cols-12 lg:grid-cols-20">
         {tiles.map((tile, index) => (
           <Tile key={`tile-${index}-${tile}`} />
         ))}
